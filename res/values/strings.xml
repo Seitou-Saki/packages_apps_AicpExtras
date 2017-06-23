@@ -232,21 +232,6 @@
     <string name="double_tap_sleep_anywhere_summary_on">Double tap lockscreen to put the device to sleep enabled</string>
     <string name="double_tap_sleep_anywhere_summary_off">Double tap lock screen to put the device to sleep disabled</string>
 
-    <!-- SU -->
-    <string name="cannot_get_su_start">Cannot get superuser access.</string>
-
-    <!-- Aicp logcat -->
-    <string name="logcat_title">Logcat</string>
-    <string name="kmesg_title">Kmesg</string>
-    <string name="dmesg_title">Dmesg</string>
-    <string name="log_it_title">Engage</string>
-    <string name="log_it_dialog_title">Engage</string>
-    <string name="log_that_shit_title">Log that shit</string>
-    <string name="logcat_warning">Share it or GTFO!</string>
-    <string name="share_title">Share...</string>
-    <string name="log_it_share_subject">Aicp logs</string>
-    <string name="log_it_summary">Be patient for the logs to be created</string>
-
     <!-- AOKP custom system animations -->
     <string name="animation_duration_default">Default</string>
 
@@ -601,26 +586,6 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
-    <!-- SlimSizer  -->
-    <string name="listsystem">list</string>
-    <string name="sizer_title">App remover</string>
-    <string name="caution">Caution!</string>
-    <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
-    <string name="cancel">Cancel</string>
-    <string name="sizer_message_delete">Are you sure you want to delete this app?</string>
-    <string name="btn_delete">Delete selected APPs now!</string>
-    <string name="delete_progress_title">Deleting</string>
-    <string name="delete_progress">Selected files are being deleted...</string>
-    <string name="delete_success">Deleted</string>
-    <string name="delete_fail">Unable to delete</string>
-    <string name="btn_profile">Profile</string>
-    <string name="sizer_message_sdnowrite">Cannot write to SD Card.</string>
-    <string name="sizer_message_sdnoread">Cannot read SD Card.</string>
-    <string name="sizer_message_filesuccess">Created profile.</string>
-    <string name="sizer_message_filefail">Failed to create profile.</string>
-    <string name="sizer_message_noselect">Nothing selected.</string>
-    <string name="system_app_remover">System App Remover</string>
-
     <!-- Extensions settings -->
     <string name="extensions_title">System extensions</string>
 
@@ -857,6 +822,7 @@
     <string name="no_iconpacks_summary">No icon packs installed</string>
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
+    <string name="slim_recents_corner_radius_title">Card corner radius</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
@@ -938,19 +904,6 @@
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
-
-    <!-- Custom bootanim -->
-    <string name="custom_bootanimation_title">Boot animation</string>
-    <string name="custom_bootanimation_select_title">Select boot animation</string>
-    <string name="custom_bootanimation_summary">On every change, current animation will be backed up to storage/AICP_ota folder with current date stamp. Old ones must be deleted manually if not needed.</string>
-    <string name="bootanimation_preview">Bootanimation preview</string>
-    <string name="set_custom_bootanimation">Set custom...</string>
-    <string name="creating_preview">Creating preview...</string>
-    <string name="error_reading_zip_file">Error reading zip file</string>
-    <string name="error_creating_preview">Error creating preview</string>
-    <string name="install_file_manager_error">No application found to pick the zip file. Please install a filemanager.</string>
-    <string name="apply">Apply</string>
-    <string name="bootanim_install_successful">New bootanimation successfully applied.</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">App launcher</string>
@@ -1069,4 +1022,14 @@
     <string name="weather_winddirection_display_title">Wind direction display</string>
     <string name="weather_winddirection_display_summaryOn">Wind direction is displayed using pinwheel directions</string>
     <string name="weather_winddirection_display_summaryOff">Wind direction is displayed using angular directions</string>
-</resources>
+
+    <!-- Battery tile style-->
+    <string name="battery_tile_style_title">Battery tile style</string>
+
+    <!-- Battery strings -->
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_solid">Solid</string>
+    <string name="status_bar_battery_style_aicp">Tha Battery</string>
+  </resources>
