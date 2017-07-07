@@ -75,6 +75,12 @@
             android:label="@string/traffic_category">
         </activity>
         <activity
+            android:name=".aicpextras.SystemappRemover"
+            android:label="@string/system_app_remover"
+            android:theme="@style/PreferenceTheme"
+            android:excludeFromRecents="true">
+        </activity>
+        <activity
             android:name=".aicpextras.CarrierLabel"
             android:theme="@style/PreferenceTheme"
             android:label="@string/carrier_options">
@@ -189,6 +195,12 @@
             android:label="@string/stats_title"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+
+        <receiver android:name="com.lordclockan.aicpextras.util.OnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
 
         <activity android:name=".romstats.AnonymousStats"
             android:label="@string/stats_title" >
