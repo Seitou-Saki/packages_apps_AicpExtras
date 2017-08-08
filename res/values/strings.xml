@@ -97,7 +97,6 @@
     <string name="disable_immersive_message_summary">This will hide all Immersive Mode messages</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right" translatable="false">→</string>
     <string name="arrow_down" translatable="false">↓</string>
@@ -284,8 +283,6 @@
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power menu animation</string>
     <string name="power_menu_animation_style_title">Selected animation style</string>
-    <string name="power_menu_animation_style_summary">Change the enter/exit animation of the power menu</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
     <string name="power_menu_animation_aosp">AOSP (default)</string>
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
@@ -392,9 +389,6 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
-    <string name="qs_set_animation_style">%1$s</string>
-    <string name="qs_set_animation_duration">%1$s</string>
-    <string name="qs_set_animation_interpolator">%1$s</string>
 
     <!-- App Exit Toast -->
     <string name="app_exit_toast">Press back again to exit</string>
@@ -593,12 +587,12 @@
     <!-- OmniSwitch Recents -->
     <string name="aosp_recents_title">AICP recents</string>
     <string name="omniswitch_recents_title">OmniSwitch recents</string>
-    <string name="recents_use_omniswitch_title">Use for a recents alterative</string>
+    <string name="recents_use_omniswitch_title">Use for a recents alternative</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of the default recents view</string>
     <string name="omniswitch_start_settings_title">OmniSwitch settings</string>
     <string name="omniswitch_start_settings_summary">View the settings for OmniSwitch</string>
     <string name="omniswitch_first_time_title">Warning</string>
-    <string name="omniswitch_first_time_message">If using OmniSwitch as recents alterative, make sure you have OmniSwitch enabled</string>
+    <string name="omniswitch_first_time_message">If using OmniSwitch as recents alternative, make sure you have OmniSwitch enabled</string>
 
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
@@ -606,25 +600,12 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
-    <!-- SlimSizer  -->
-    <string name="listsystem">list</string>
-    <string name="sizer_title">App remover</string>
-    <string name="caution">Caution!</string>
-    <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
-    <string name="cancel">Cancel</string>
-    <string name="sizer_message_delete">Are you sure you want to delete this app?</string>
-    <string name="btn_delete">Delete selected APPs now!</string>
-    <string name="delete_progress_title">Deleting</string>
-    <string name="delete_progress">Selected files are being deleted...</string>
-    <string name="delete_success">Deleted</string>
-    <string name="delete_fail">Unable to delete</string>
-    <string name="btn_profile">Profile</string>
-    <string name="sizer_message_sdnowrite">Cannot write to SD Card.</string>
-    <string name="sizer_message_sdnoread">Cannot read SD Card.</string>
-    <string name="sizer_message_filesuccess">Created profile.</string>
-    <string name="sizer_message_filefail">Failed to create profile.</string>
-    <string name="sizer_message_noselect">Nothing selected.</string>
+    <!-- App Remover -->
     <string name="system_app_remover">System App Remover</string>
+    <string name="listsystem">list</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_delete">Are you sure you want to delete this app?</string>
+    <string name="message_noselect">Nothing selected</string>
 
     <!-- Extensions settings -->
     <string name="extensions_title">System extensions</string>
@@ -838,7 +819,7 @@
 
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Slim recents</string>
-    <string name="use_slim_recents_title">Use for a recents alterative</string>
+    <string name="use_slim_recents_title">Use for a recents alternative</string>
     <string name="use_slim_recents_summary">Use slim recents instead of the default recents view</string>
     <string name="slim_recents_settings_title">Slim recents settings</string>
     <string name="slim_recents_settings_summary">View the settings for slim recents</string>
@@ -1098,4 +1079,21 @@
     <string name="install_file_manager_error">No application found to pick the zip file. Please install a filemanager.</string>
     <string name="apply">Apply</string>
     <string name="bootanim_install_successful">New bootanimation successfully applied.</string>
+
+    <!-- Lineage extras stuff -->
+    <string name="lineage_extras_title">Lineage extras downloads</string>
+    <string name="lineage_extras_title_summary">Root addon, root remover, weather providers...</string>
+
+    <!-- Center Time + Date in header -->
+    <string name="qs_date_time_center_title">Center time &amp; date</string>
+    <string name="qs_date_time_center_summary">Will disable multi-user and running services icons</string>
+
+    <!-- WakeBlock app -->
+    <string name="wakeblock_app_title">WakeBlock</string>
+    <string name="wakeblock_app_installed_summary">Block wakelocks</string>
+    <string name="wakeblock_app_not_installed_summary">Get the app from PlayStore to block wakelocks!</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
 </resources>
