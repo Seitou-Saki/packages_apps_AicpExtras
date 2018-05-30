@@ -360,19 +360,6 @@
         <item>2</item>
     </string-array>
 
-    <!-- Suppress notification sound/vibration -->
-    <string-array name="notification_sound_vib_screen_on_entries">
-        <item>@string/notification_sound_vib_screen_on_never</item>
-        <item>@string/notification_sound_vib_screen_on_always</item>
-        <item>@string/notification_sound_vib_screen_on_nomedia</item>
-    </string-array>
-
-    <string-array name="notification_sound_vib_screen_on_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <!-- Statusbar Clock options -->
     <string-array name="clock_style_entries" translatable="false">
         <item>@string/right_clock</item>
@@ -739,5 +726,37 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+    </string-array>
+
+    <!-- Lockscreen clock styles -->
+    <string-array name="lockscreen_clock_selection_entries" translatable="false">
+        <item>@string/lockscreen_clock_selection_digital</item>
+        <item>@string/lockscreen_clock_selection_digital_bold</item>
+        <item>@string/lockscreen_clock_selection_analog</item>
+        <item>@string/lockscreen_clock_selection_analog_deadpool</item>
+        <item>@string/lockscreen_clock_selection_sammy</item>
+        <item>@string/lockscreen_clock_selection_sammy_bold</item>
+    </string-array>
+
+    <string-array name="lockscreen_clock_selection_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Lockscreen date styles -->
+    <string-array name="lockscreen_date_selection_entries" translatable="false">
+        <item>@string/lockscreen_date_selection_default</item>
+        <item>@string/lockscreen_date_selection_str_box</item>
+        <item>@string/lockscreen_date_selection_str_round</item>
+    </string-array>
+
+    <string-array name="lockscreen_date_selection_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>
