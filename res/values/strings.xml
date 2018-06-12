@@ -171,6 +171,10 @@
     <string name="status_bar_icons_category_title">Icons</string>
     <string name="status_bar_others_category_title">Others</string>
 
+    <!-- Show 4G instead of LTE -->
+    <string name="show_4g_title">Show 4G</string>
+    <string name="show_4g_summary">Show 4G instead of LTE signal icon</string>
+
 
     <!-- Notifications -->
 
@@ -207,6 +211,10 @@
     <string name="battery_style_dotted_circle">Dotted circle</string>
     <string name="battery_style_text">Text</string>
     <string name="battery_style_hidden">Hidden</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
 
 
@@ -456,6 +464,7 @@
     <string name="show_lockscreen_date_title">Date widget</string>
     <string name="show_lockscreen_date_summary">Enable to show date below the clock widget</string>
     <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_selection_default_aosp">Default (small size)</string>
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
@@ -1026,6 +1035,9 @@
     <string name="hw_keys_title">Hardware buttons</string>
     <string name="hw_keys_summary">Configure the behaviour of the device\'s hardware buttons</string>
 
+    <!-- Power keys -->
+    <string name="hardware_keys_power_key_title">Power buttons</string>
+
     <!-- Volume keys -->
     <string name="volume_keys_category">Volume buttons</string>
 
@@ -1116,4 +1128,36 @@
     <string name="fp_only_screen_on_title">Screen on fingerprint</string>
     <string name="fp_only_screen_on_summary">Fingerprint sensor will only work when screen is on</string>
 
+    <!-- Heads up snooze -->
+    <string name="heads_up_category">Heads up</string>
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_disabled">disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_2sec">2 seconds (default)</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+
+    <!-- Activity Blacklist -->
+    <string name="chooser_activity_blacklist_title">Chooser Activity blacklist</string>
+    <string name="chooser_activity_blacklist_summary">Apps to not show when tapping on a Share button</string>
+    <string name="chooser_activity_blacklist_cat_title">Blacklist</string>
+    <string name="chooser_activity_blacklist_pref_title">Add app</string>
+    <string name="chooser_activity_blacklist_pref_summary">Tap here to add, tap on added app to remove it</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- System Behavior category strings -->
+    <string name="system_ss_category_title">Screenshot options</string>
+    <string name="system_pup_category_title">Plug/Unplug options</string>
 </resources>
