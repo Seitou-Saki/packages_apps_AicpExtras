@@ -35,21 +35,25 @@
   <string name="menu_cancel">Avbryt</string>
   <!-- Statusbar AICP logo -->
   <!-- Statusbar categories -->
+  <!-- Show 4G instead of LTE -->
   <!-- Notifications -->
   <!-- Heads up -->
   <!-- Notification guts kill app button -->
   <!-- InCall notifications vibrate -->
   <!-- Brightness slider settings -->
   <!-- Battery Styles -->
+  <!-- Notification count -->
   <!-- Quick settings -->
   <string name="quick_settings_title">Hurtiginnstillinger</string>
   <!-- Disable music track title in QS tile -->
   <!-- Small quick settings scroller -->
   <!-- QS rows and columns -->
+  <!-- QS tiles mini mode -->
   <!-- QS footer warnings -->
   <!-- QS footer Running Services icon -->
   <!-- QS footer Settings icon -->
   <!-- QS tiles title visibility -->
+  <!-- QS carrier text visibility -->
   <!-- QS Headers -->
   <string name="header_provider_disabled">Deativert</string>
   <!-- Tiles animation style  -->
@@ -127,6 +131,7 @@
   <string name="fling_logo_opacity_title">Fling logo transparens</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_custom_buttons_opacity_title">SmartBar knapper transparens på Pulse</string>
+  <string name="pulse_auto_color_summary">Synkroniser farge med albumbilder. Overstyrer Lava Lamp og linjetransparens.</string>
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
@@ -148,6 +153,7 @@
   <string name="animation_title">Animasjoner</string>
   <string name="animation_duration_default">Standard</string>
   <!-- Lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Musikk visualiserer</string>
   <!-- Screen state service -->
   <!-- Ambient Music Ticker -->
   <string name="force_ambient_for_media_off">Deativert</string>
@@ -162,6 +168,7 @@
   <!-- HW keys -->
   <!-- Volume keys -->
   <!-- Hardware button navigation -->
+  <!-- Camera button -->
   <!-- Volume rocker wake -->
   <!-- Button brightness -->
   <!-- Quick QS pull down -->
@@ -172,4 +179,9 @@
   <!-- System default animation -->
   <!-- Smart Pixels -->
   <!-- Fingerprint sensor only at screen on -->
+  <!-- Heads up snooze -->
+  <!-- Heads up timeout -->
+  <!-- Activity Blacklist -->
+  <!-- System Behavior category strings -->
+  <!-- AOSP Recents Style -->
 </resources>

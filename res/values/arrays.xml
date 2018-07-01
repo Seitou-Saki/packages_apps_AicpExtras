@@ -336,7 +336,6 @@
     <string-array name="force_ambient_for_media_entries">
         <item>@string/force_ambient_for_media_off</item>
         <item>@string/force_ambient_for_media_on</item>
-        <item>@string/force_ambient_for_media_on_forced</item>
         <item>@string/force_ambient_for_media_on_forced_clean</item>
     </string-array>
 
@@ -344,7 +343,6 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
 
     <!-- Screen off animation -->
@@ -530,6 +528,7 @@
         <item>@string/battery_style_port</item>
         <item>@string/battery_style_circle</item>
         <item>@string/battery_style_dotted_circle</item>
+        <item>@string/battery_style_square</item>
         <item>@string/battery_style_text</item>
         <item>@string/battery_style_hidden</item>
     </string-array>
@@ -540,6 +539,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 
     <!-- Quick pulldown -->
@@ -734,6 +734,7 @@
         <item>@string/lockscreen_clock_selection_digital_bold</item>
         <item>@string/lockscreen_clock_selection_analog</item>
         <item>@string/lockscreen_clock_selection_analog_deadpool</item>
+        <item>@string/lockscreen_clock_selection_analog_spidey</item>
         <item>@string/lockscreen_clock_selection_sammy</item>
         <item>@string/lockscreen_clock_selection_sammy_bold</item>
     </string-array>
@@ -743,6 +744,7 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>7</item>
         <item>4</item>
         <item>5</item>
     </string-array>

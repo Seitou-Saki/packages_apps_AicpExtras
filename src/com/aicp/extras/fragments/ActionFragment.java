@@ -145,7 +145,7 @@ public abstract class ActionFragment extends BaseSettingsFragment implements
                 final DialogInterface.OnClickListener customActionClickListener = new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int item) {
-                        findAndUpdatePreference(adapter.getItem(item), mHolderTag);
+                        findAndUpdatePreference(adapter.getItem(item).action, mHolderTag);
                         dialog.dismiss();
                     }
                 };
@@ -199,7 +199,7 @@ public abstract class ActionFragment extends BaseSettingsFragment implements
         loadAndSetConfigs();
     }
 
-    private void loadAndSetConfigs() {
+    protected void loadAndSetConfigs() {
         mButtons = Config.getConfig(getActivity(), mDefaults);
         mDefaultButtons = Config.getDefaultConfig(getActivity(), mDefaults);
         for (ActionPreference pref : mPrefHolder) {
